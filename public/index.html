@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Start Coloring!</h1>
+    <div id="canvasContainer"></div>
+    <p id="pickText">Choose a Color:</p>
+    <div id="buttons">
+        <input type="radio" id="na" name="continent">
+        <label for="na">Blue</label>
+        <input type="radio" name="continent" id="sa">
+        <label for="sa">Purple</label>
+        <input type="radio" name="continent" id="asia">
+        <label for="asia">Orange</label>
+        <input type="radio" name="continent" id="europe">
+        <label for="europe">Red</label>
+        <input type="radio" name="continent" id="australia">
+        <label for="australia">Yellow</label>
+        <input type="radio" name="continent" id="africa">
+        <label for="africa">Green</label>
+    </div>
+
+    <div id="imgContainer"></div>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
